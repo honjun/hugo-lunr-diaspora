@@ -1,0 +1,23 @@
+{
+  "name": "hugo-lunr-diaspora",
+  "version": "1.0.0",
+  "description": "search",
+  "main": "lib/index.js",
+  "bin": {
+    "hugo-lunr": "bin/index.js"
+  },
+  "scripts": {
+    "test": "bin/index.js ",
+    "test-args": "bin/index.js -i \"content/**\" -o public/output.json",
+    "test-api": "bin/api.js"
+  },
+  "author": "hojun",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.0",
+    "gray-matter": "^2.0.2",
+    "remove-markdown": "^0.1.0",
+    "striptags": "^2.1.1",
+    "toml": "^2.3.0"
+  }
+}
